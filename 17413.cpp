@@ -27,9 +27,6 @@ int main() {
 	getline(cin, S);
 
 	int index = S.size() - 1;
-	int start_index;
-	int last_index;
-	int stride;
 
 	for (int i = 0; i <= index; ++i) {
 
@@ -43,8 +40,7 @@ int main() {
 			continue;
 		}
 
-		else {
-			
+		else {			
 			int start_index = i;
 			bool last = false;
 			while (S[i] != ' ' && S[i] != '<') {
