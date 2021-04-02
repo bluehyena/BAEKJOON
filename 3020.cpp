@@ -15,7 +15,6 @@ int main() {
 	int a;
 	cin >> N >> H;
 
-
 	for (int i = 1; i <= N; ++i) {
 		cin >> a;
 		if (i % 2 == 1) {
