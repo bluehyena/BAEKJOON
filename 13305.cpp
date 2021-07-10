@@ -11,24 +11,24 @@ int main() {
 	int N;
 	cin >> N;
 
-	int answer = 0;
+	long long answer = 0;
 
-	vector<int> distance;
-	vector<int> price;
+	vector<long long> distance;
+	vector<long long> price;
 
 	for (int i = 0; i < N - 1; ++i) {
-		int _distance;
+		long long _distance;
 		cin >> _distance;
 		distance.push_back(_distance);
 	}
 
 	for (int i = 0; i < N; ++i) {
-		int _price;
+		long long _price;
 		cin >> _price;
 		price.push_back(_price);
 	}
 
-	int tmp = price[0];
+	long long tmp = price[0];
 
 	for (int i = 0; i < N - 1; ++i) {
 		tmp = min(tmp, price[i]);

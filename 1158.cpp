@@ -19,8 +19,6 @@ int main() {
 		q.push(i);
 	}
 
-	cout << q.front();
-
 	int tmp;
 
 	while (true) {

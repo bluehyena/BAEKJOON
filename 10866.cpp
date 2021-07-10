@@ -28,47 +28,47 @@ int main() {
 		}
 		else if (command == "pop_front") {
 			if (dq.empty()) {
-				cout << -1;
+				cout << -1 << '\n';
 			}
 			else {
-				cout << dq.front();
+				cout << dq.front() << '\n';
 				dq.pop_front();
 			}
 		}
 		else if (command == "pop_back") {
 			if (dq.empty()) {
-				cout << -1;
+				cout << -1 << '\n';
 			}
 			else {
-				cout << dq.back();
+				cout << dq.back() << '\n';
 				dq.pop_back();
 			}
 		}
 		else if (command == "size") {
-			cout << dq.size();
+			cout << dq.size() << '\n';
 		}
 		else if (command == "empty") {
 			if (dq.empty()) {
-				cout << 1;
+				cout << 1 << '\n';
 			}
 			else {
-				cout << 0;
+				cout << 0 << '\n';
 			}
 		}
 		else if (command == "front") {
 			if (dq.empty()) {
-				cout << -1;
+				cout << -1 << '\n';
 			}
 			else {
-				cout << dq.front();
+				cout << dq.front() << '\n';
 			}
 		}
 		else if (command == "back") {
 			if (dq.empty()) {
-				cout << -1;
+				cout << -1 << '\n';
 			}
 			else {
-				cout << dq.back();
+				cout << dq.back() << '\n';
 			}
 		}
 	}
